@@ -51,8 +51,8 @@ $(document).ready(function () {
     // owl carousel script
     $('.carousel').owlCarousel({
         margin: 20,
-        loop: true,
-        autoplay: true,
+        loop: false,
+        autoplay: false,
         autoplayTimeOut: 2000,
         autoplayHoverPause: true,
         responsive: {
@@ -70,6 +70,14 @@ $(document).ready(function () {
             }
         }
     });
+    // chrome stylin carasoul    
+        // chrome stylin carasoul// chrome stylin carasoul// chrome stylin carasoul    
+        // $(".slider").owlCarousel({
+        //     loop: false,
+        //     autoplay: false,
+        //     autoplayTimeout: 2000, //2000ms = 2s;
+        //     autoplayHoverPause: true,
+        //   });
     
 });
 

@@ -476,12 +476,16 @@ section .title::after {
     width: 40%;
 }
 
-/* Projects section styling *//* Projects section styling *//* Projects section styling *//* Projects section styling */
+/* Projects section styling */
+/* Projects section styling */
+/* Projects section styling */
+/* Projects section styling */
 
 .Projects .title::after {
     content: "My Projects";
 }
-#car_read{
+
+#car_read {
     display: inline-block;
     background: #222;
     color: #fff;
@@ -493,16 +497,18 @@ section .title::after {
     border: 2px solid crimson;
     transition: all 0.3s ease;
 }
-#car_read:hover{
+
+#car_read:hover {
     color: crimson;
     background: white;
     border: 2px solid black;
 }
+
 .Projects .carousel .card {
     background: #222;
     border-radius: 6px;
-    padding: 26px 22px;
-    height: 659px;
+    padding: 23px 21px;
+    height: 327px;
     /* width: 361px; */
     text-align: center;
     overflow: hidden;
@@ -512,9 +518,11 @@ section .title::after {
 .Projects .carousel .card:hover {
     background: crimson;
 }
-.Projects .carousel .card:hover .text{
+
+.Projects .carousel .card:hover .text {
     color: black;
 }
+
 .Projects .carousel .card .box {
     display: flex;
     flex-direction: column;
@@ -528,14 +536,14 @@ section .title::after {
 }
 
 .Projects .carousel .card .text {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
 
 .Projects .carousel .card img {
-    height: 170px;
-    width: 300px;
+    height: 150px;
+    width: 250px;
     object-fit: cover;
     border-radius: 8px;
     border: 3px solid crimson;
@@ -544,7 +552,7 @@ section .title::after {
 
 .Projects .carousel .card:hover img {
     border-color: #fff;
-    
+
 }
 
 .owl-dots {
@@ -958,6 +966,10 @@ footer span a:hover {
 }
 
 @media (max-width: 690px) {
+    /* .card{
+        width: 460px;
+        height:100%;
+    } */
     .right img {
         display: none;
     }
@@ -983,7 +995,7 @@ footer span a:hover {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 500px) {    
     .right img {
         display: none;
     }
@@ -1025,19 +1037,20 @@ footer span a:hover {
 
 }
 
-@media (max-width: 400px) {
+@media (max-width: 400px) 
+{
     .menu-btn {
         display: block;
         font-size: 25px;
         z-index: 999;
     }
 
-    .Projects .card {
+    /* .Projects .card {
         display: flex;
-    }
+    } */
 
-    .card .img {
+    /* .card .img {
         width: 50px;
         height: 50px;
-    }
+    } */
 }

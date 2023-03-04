@@ -333,7 +333,7 @@ section .title::after {
 .Certification .serv-content .card {
     /*-----------------------------*/
     /* width: calc(20% - 20px); */
-    width: calc(20% - -131px);
+    width: calc(20% - -131px);  
     background: #222;
     text-align: center;
     border-radius: 6px;
@@ -993,6 +993,7 @@ footer span a:hover {
 
     .Certification .serv-content .card {
         width: 100%;
+        padding: 22px 2px;
     }
 }
 

@@ -95,7 +95,7 @@ section .title::after {
 .navbar {
     position: fixed;
     width: 100%;
-    z-index: 999;
+    z-index: 9999;
     padding: 30px 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
@@ -316,8 +316,8 @@ section .title::after {
 
 .Certification img {
     /*-----------------*/
-    height: 180px;
-    width: 250px;
+    height: 279px;
+    width: 402px;
 }
 
 .Certification .title::before,
@@ -331,26 +331,28 @@ section .title::after {
     content: "My Achievement";
 }
 
-.Certification .serv-content .card {
+ .Certification .serv-content .card {
     /*-----------------------------*/
-    width: calc(33% - 20px);
+    /* width: calc(33% - 20px); */
+    width: calc(50% - 10px);
     background: #222;
     text-align: center;
     border-radius: 6px;
     padding: 25px 20px;
     cursor: pointer;
     transition: all 0.3s ease;
-}
+    margin-bottom: 20px;
+} 
 
 .Certification .serv-content .card:hover img {
     background: crimson;
-    transform: scale(1.09);
+    /* transform: scale(1.09); */
     transition: all 0.3s ease;
 }
 
 .Certification .serv-content .card:hover {
     background: crimson;
-    transform: scale(1.09);
+    transform: scale(1.02);
     transition: all 0.3s ease;
 }
 

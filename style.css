@@ -345,7 +345,7 @@ section .title::after {
 
 .Certification .serv-content .card:hover img {
     background: crimson;
-    transform: scale(1.09);
+    /* transform: scale(1.09); */
     transition: all 0.3s ease;
 }
 

@@ -54,7 +54,7 @@ $(document).ready(function () {
         loop: false,
         autoplay: false,
         autoplayTimeOut: 2000,
-        autoplayHoverPause: true,
+        autoplayHoverPause: false,
         responsive: {
             0: {
                 items: 1,

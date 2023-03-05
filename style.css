@@ -338,7 +338,7 @@ section .title::after {
     text-align: center;
     border-radius: 6px;
     padding: 25px 20px;
-        /* margin: 10px; */
+        margin: 10px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -883,6 +883,20 @@ footer span a:hover {
     }
 }
 
+/* @media (min-width: 947px)  and (max-width:1254px){
+    .Certification .serv-content .card {
+        /* width: calc(20% - 20px); */
+ /*       width: calc(34% - -151px);
+        background: #222;
+        text-align: center;
+        border-radius: 6px;
+        padding: 25px 20px;
+        /* margin: 10px; */
+   /*     cursor: pointer;
+        transition: all 0.3s ease;
+        margin: 10px;
+    }
+} */
 @media (max-width: 947px) {
     .right img {
         display: none;

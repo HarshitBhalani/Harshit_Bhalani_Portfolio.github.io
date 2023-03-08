@@ -312,6 +312,7 @@ section .title::after {
 .Projects {
     color: #fff;
     background: #111;
+    z-index: 999999;
 }
 
 .Certification img {
@@ -322,6 +323,7 @@ section .title::after {
 .Certification .title::before,
 .Projects .title::before {
     background: #fff;
+
 }
 
 .Certification .title::after,
